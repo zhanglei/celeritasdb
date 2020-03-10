@@ -9,6 +9,7 @@ pub mod qpaxos;
 pub mod replica;
 pub mod snapshot;
 pub mod tokey;
+pub mod errors;
 
 #[cfg(test)]
 mod tests {
